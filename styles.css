@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #CCCCFF;
+}
+
+h1 {
+  text-align: center;
+}
+
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-card {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.list-card h2 {
+  margin-top: 0;
+}
+
+.list-card p {
+  margin-bottom: 5px;
+}
+
+.list-card.pending {
+  background-color: #f85a2a;
+  color: red;
+}
+
+.list-card.in-progress {
+  background-color: #ebe84a;
+  color: blue;
+}
+
+.list-card.done {
+  background-color: #26f192;
+  color: green;
+}
+
+.list-card input[type="checkbox"] {
+  margin-right: 5px;
+}
